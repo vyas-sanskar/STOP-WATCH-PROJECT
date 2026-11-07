@@ -1,0 +1,150 @@
+<!-- MY OWN UI :- -->
+
+
+
+
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>STOP-WATCH</h1>
+    <main>
+      <div>
+        <h1 id="hrs">00</h1>
+        <p>hrs</p>
+      </div>
+      <span>:</span>
+      <div>
+        <h1 id="mins">00</h1>
+        <p>min</p>
+      </div>
+      <span>:</span>
+      <div>
+        <h1 id="seconds">00</h1>
+        <p>seconds</p>
+      </div>
+      <span>:</span>
+      <div>
+        <h1 id="milliseconds">00</h1>
+        <p>ms</p>
+      </div>
+    </main>
+    <button id = "Startbtn">Start</button>
+    <button id="Stopbtn">Stop</button>
+    <button id="Restartbtn">Restart</button>
+    <script src="script.js"></script>
+  </body>
+</html> -->
+
+
+
+
+<!--  UI WRITTEN MY AI :- -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch — Precision Timer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="brand">
+                <span class="brand-icon">◷</span>
+                <span>CHRONO</span>
+            </div>
+            <span class="version">PRECISION TIMER / 01</span>
+        </header>
+
+        <main class="stopwatch-card">
+
+            <div class="card-top">
+                <span class="eyebrow">STOPWATCH</span>
+                <div class="status">
+                    <span class="status-dot"></span>
+                    <span>READY</span>
+                </div>
+            </div>
+
+            <div class="timer">
+
+                <div class="time-unit">
+                    <h1 id="hrs">00</h1>
+                    <p>HOURS</p>
+                </div>
+
+                <span class="separator">:</span>
+
+                <div class="time-unit">
+                    <h1 id="mins">00</h1>
+                    <p>MINUTES</p>
+                </div>
+
+                <span class="separator">:</span>
+
+                <div class="time-unit">
+                    <h1 id="seconds">00</h1>
+                    <p>SECONDS</p>
+                </div>
+
+                <span class="separator milliseconds-separator">.</span>
+
+                <div class="time-unit ms-unit">
+                    <h1 id="milliseconds">00</h1>
+                    <p>MS</p>
+                </div>
+
+            </div>
+
+            <div class="card-divider"></div>
+
+            <div class="controls">
+                <button id="Startbtn" class="start-btn" type="button">
+                    <span class="play-icon">▶</span>
+                    Start
+                </button>
+
+                <button id="Stopbtn" class="secondary-btn" type="button">
+                    <span>Ⅱ</span>
+                    Stop
+                </button>
+
+                <button id="Restartbtn" class="reset-btn" type="button">
+                    ↻
+                    Restart
+                </button>
+            </div>
+
+            <div class="card-footer">
+                <span>MEASURE EVERY MOMENT.</span>
+                <span>00:00:00</span>
+            </div>
+
+        </main>
+
+        <footer>
+            <span>CRAFTED FOR PRECISION</span>
+            <span>© 2026 CHRONO</span>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
